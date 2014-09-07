@@ -1,7 +1,9 @@
 MU110-2.homework
 ================
 Домашнее задание №2
+
 Фактически надо повторить, то что было показано в практической части на второй лекции.
+
 1. Создать новый проект на swift c темплейта Single View Application
 2. Создать новый storyboard для авторизации назвав его Authentication.
 3. Добавить в Aithentication.storyboard корневым контроллером UINavigationController у которого будет UIViewController rootViewController'ом и будет содержать интерфейс для авторизации.
