@@ -10,6 +10,7 @@ MU110-2.homework
 4. В этом же storyboard создать UIViewController для экрана регистрации и сделать интерефейс на свой вкус.
 5. В Main.storyboard добавить UINavigationController и сделать его стартовым. Присоединить ViewController который существовал до этого, как rootViewController - как это было показано в лекции.
 6. В переопределенном методе viewDidLoad во ViewController сделать как на лекции вызов и отображение интерфейса  с Authentication.storyboard:
+
         //if (!user.isLogedIn) {
         let loginController: UIViewController = UIStoryboard(name: "Authentication", bundle: nil).instantiateInitialViewController() as UIViewController
         
